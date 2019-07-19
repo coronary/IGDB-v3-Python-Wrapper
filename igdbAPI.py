@@ -128,8 +128,7 @@ class igdb:
     #     return self.__postpre('!', data)
         
     def notEq(self, field: str, number: int) -> str:
-    # Used for not equal. Sample output: 'field != number'
-        return self.__filterTrans(field, number, '!=')
+    # Used for not equal. Sample output: 'field != number'        return self.__filterTrans(field, number, '!=')
     
     def search(self, searchTerm: str) -> str:
         # returns 'search "searchTerm";'
